@@ -1,0 +1,79 @@
+*{
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.main {
+    padding-top: 20px;
+    border: 5px solid white;
+    margin: 20px;
+    padding-bottom: 20px;
+    width: 435px;
+    margin: 40px auto;
+}
+#watch {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding-left: 60px;
+}
+#watch h2 {
+	display: inline-block;
+	width: 80px;
+	padding-right: 10px;
+	color: white;
+	font-size: 50px;
+	/* background-color: black; */
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	width: 100px;
+	border-radius: 20px;
+	padding: 10px;
+	color: #cc351a;
+	font-weight: 900;
+}
+span {
+	color: white;
+	text-shadow: 5px 5px 3px pink;
+	display: flex;
+	font-size: 40px;
+	justify-content: center;
+}
+
+.text-center {
+	text-align: center;
+}
+/* ---- base ---- */
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+/* ---- particles.js container ---- */
+
+#particles-js {
+	width: 100vw;
+	height: 100vh;
+    background-color: #cc351a;
+	background-image: url('');
+	background-size: cover;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+	.main {
+	 width: 90%;
+	 margin:10px;
+	}
+  }
