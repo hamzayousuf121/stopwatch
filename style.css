@@ -26,6 +26,9 @@
 	font-size: 50px;
 	/* background-color: black; */
 }
+.text-white{
+	color: white;
+}
 
 .button {
 	display: flex;
@@ -42,7 +45,6 @@
 }
 span {
 	color: white;
-	text-shadow: 5px 5px 3px pink;
 	display: flex;
 	font-size: 40px;
 	justify-content: center;
